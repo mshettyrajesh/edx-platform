@@ -1,0 +1,5 @@
+{% autoescape off %}
+{% load i18n %}
+
+{% blocktrans trimmed %}Welcome ALL Testing week {{ week_num }} {% endblocktrans %}
+{% endautoescape %}
